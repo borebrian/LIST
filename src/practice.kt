@@ -1,13 +1,10 @@
-fun main(args:Array<String>){
-  var list =Array<String>(6){"dsss"}
+fun main(args:Array<String>) {
+    var list = mutableListOf<Int>() //immutable,fixed size read only
+    list.add(44)
+    list.add(45)
 
 
-    list[0]="bRIAN"
-    list[1]="Benaa"
-    list[2]="Kili"
-    for (elemente in list){
-        println(elemente)
+    for (m in list) {
+        println(m)
     }
-
-
 }
