@@ -15,7 +15,7 @@ fun main(args:Array<String>) {
         println(t)
     }
     var people = listOf<Person>(Person(1,"BRIAN"),   (Person(2,"Kili")))
-    var pple =people.map { it.name }
+    var pple =people.map { }
 }
     class  Person(age:Int,name:String){
 
